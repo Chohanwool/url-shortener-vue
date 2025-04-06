@@ -23,6 +23,13 @@ npm run dev
 ```
 
 ### Compile and Minify for Production
+vite.config.js 에서 build {} 경로를 로컬 백엔드의 static 으로 지정
+```js
+build: {
+    outDir: '../url-shortener-back/src/main/resources/static',
+  },
+```
+
 
 ```sh
 npm run build

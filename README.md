@@ -30,9 +30,14 @@ build: {
   },
 ```
 
-
 ```sh
 npm run build
+```
+
+스프링 부트와 api 요청 처리를 위해 axios 패키지 설치 필수
+```sh
+npm list axios
+npm install axios
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
